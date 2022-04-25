@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="notification_low_price"
+        android:title="gwei notification for low price " />
+    <EditTextPreference
+        android:defaultValue="true"
+        android:key="gwei_value_low_price"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        app:defaultValue="40"
+        android:title="witch is the value for low price ?" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="notification_avg_price"
+        android:title="gwei notification for Average price " />
+    <EditTextPreference
+        android:defaultValue="true"
+        android:key="gwei_value_avg_price"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        app:defaultValue="40"
+        android:title="witch is the value for Average price ?" />
+
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="notification_high_price"
+        android:title="gwei notification for High price " />
+
+    <EditTextPreference
+        android:defaultValue="true"
+        android:key="gwei_value_high_price"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        app:defaultValue="40"
+        android:title="witch is the value for High price ?" />
+
+</PreferenceScreen>

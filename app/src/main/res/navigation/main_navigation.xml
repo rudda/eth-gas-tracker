@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.github.ethgastracker.view.fragments.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.github.ethgastracker.view.fragments.notification.NotificationFragment"
+        android:label="notification_fragment"
+        tools:layout="@layout/notification_fragment" />
+
+    <activity
+        android:id="@+id/rating"
+        app:action="android.intent.action.VIEW"
+        app:data="https://play.google.com/store/apps/details?id=com.github.rudda.ethgastracker" />
+
+
+</navigation>
